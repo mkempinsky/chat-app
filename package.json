@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "chat-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "date-fns": "^2.12.0",
+    "firebase": "^7.14.2",
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"
-  }
+  },
+  "devDependencies": {}
 }
